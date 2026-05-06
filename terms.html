@@ -6,35 +6,253 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wizard Clash - Terms of Service</title>
   <style>
-    body { margin:0; font-family:-apple-system,system-ui; background:#0b1020; color:#f4f7fb; padding:20px; }
-    .container { max-width:800px; margin:0 auto; }
-    h1 { font-size:32px; }
-    h2 { margin-top:30px; }
-    p, li { color:#aeb8d0; }
-    a { color:#22d3ee; }
+    :root {
+      --bg: #0b1020;
+      --card: #121a33;
+      --text: #f4f7fb;
+      --muted: #b3bfd9;
+      --accent: #8b5cf6;
+      --border: rgba(255,255,255,0.1);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, rgba(139,92,246,0.2), transparent 30%), var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: rgba(18,26,51,0.92);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 42px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 48px;
+      letter-spacing: -1px;
+    }
+
+    h2 {
+      margin-top: 38px;
+      font-size: 26px;
+      color: white;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    .updated {
+      color: #22d3ee;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .highlight {
+      background: rgba(139,92,246,0.12);
+      border: 1px solid rgba(139,92,246,0.25);
+      border-radius: 18px;
+      padding: 18px;
+      color: white;
+    }
+
+    a {
+      color: #22d3ee;
+    }
+
+    @media (max-width: 700px) {
+      .card {
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Terms of Service</h1>
-    <p>Last updated: May 6, 2026</p>
+    <div class="card">
+      <h1>Terms of Service</h1>
+      <p class="updated">Last updated: May 6, 2026</p>
 
-    <p>By using Wizards Arena you agree to these terms.</p>
+      <p>
+        These Terms of Service ("Terms") govern your access to and use of the Wizards Arena mobile application.
+        By downloading, accessing, or using the app, you agree to be bound by these Terms.
+      </p>
 
-    <h2>1. Usage</h2>
-    <p>You must not exploit bugs or abuse the system.</p>
+      <div class="highlight">
+        If you do not agree with these Terms, you must stop using the application.
+      </div>
 
-    <h2>2. Account</h2>
-    <p>You are responsible for your account.</p>
+      <h2>1. Eligibility and Use</h2>
 
-    <h2>3. Purchases</h2>
-    <p>Handled by Apple/Google. Refunds depend on their policies.</p>
+      <p>
+        You may use Wizards Arena only in compliance with applicable laws and these Terms.
+      </p>
 
-    <h2>4. Virtual Goods</h2>
-    <p>Items have no real-world value.</p>
+      <p>You agree not to:</p>
 
-    <h2>5. Contact</h2>
-    <p>Email: <a href="mailto:turn.appsolution@gmail.com">turn.appsolution@gmail.com</a></p>
+      <ul>
+        <li>Exploit bugs, glitches, or unintended game mechanics</li>
+        <li>Use cheats, bots, scripts, automation tools, or unauthorized software</li>
+        <li>Attempt to reverse engineer, damage, or interfere with the service</li>
+        <li>Disrupt gameplay, servers, matchmaking systems, or tournaments</li>
+        <li>Use the app for fraudulent or unlawful purposes</li>
+      </ul>
+
+      <h2>2. Accounts</h2>
+
+      <p>
+        Wizards Arena uses an anonymous account system.
+        Users are responsible for maintaining access to their device and account.
+      </p>
+
+      <p>
+        We reserve the right to suspend, restrict, or terminate accounts involved in abuse,
+        cheating, exploitation, or violations of these Terms.
+      </p>
+
+      <h2>3. In-App Purchases</h2>
+
+      <p>
+        The app may offer virtual currency, items, or other digital content through in-app purchases.
+      </p>
+
+      <p>
+        Purchases are processed by Apple App Store or Google Play.
+        Refunds and billing issues are subject to the policies of the platform used for the purchase.
+      </p>
+
+      <p>
+        We reserve the right to modify pricing, rewards, item availability,
+        or virtual economy systems at any time.
+      </p>
+
+      <h2>4. Virtual Goods and Currency</h2>
+
+      <p>
+        Virtual goods including Wizards, Essence, spells, rewards, rankings, and tournament progress
+        exist solely within the game environment.
+      </p>
+
+      <p>
+        Virtual items:
+      </p>
+
+      <ul>
+        <li>Have no real-world monetary value</li>
+        <li>Cannot be redeemed for real currency</li>
+        <li>Cannot be transferred outside the app unless explicitly allowed</li>
+      </ul>
+
+      <h2>5. Gameplay and Balance Changes</h2>
+
+      <p>
+        Wizards Arena is a live service game.
+        We may update gameplay systems, character balance, spells, tournaments,
+        progression, matchmaking, rewards, and mechanics at any time.
+      </p>
+
+      <p>
+        These changes may affect the performance or value of virtual items already owned by players.
+      </p>
+
+      <h2>6. Availability of Service</h2>
+
+      <p>
+        We do not guarantee uninterrupted availability of the app.
+      </p>
+
+      <p>
+        The service may be temporarily unavailable due to:
+      </p>
+
+      <ul>
+        <li>Maintenance or updates</li>
+        <li>Technical failures</li>
+        <li>Third-party provider outages</li>
+        <li>Security incidents</li>
+      </ul>
+
+      <h2>7. Intellectual Property</h2>
+
+      <p>
+        All content within Wizards Arena, including graphics, game systems,
+        code, text, visual assets, logos, and designs,
+        is owned by Wizards Arena or its licensors.
+      </p>
+
+      <p>
+        Unauthorized copying, redistribution, or commercial use is prohibited.
+      </p>
+
+      <h2>8. Termination</h2>
+
+      <p>
+        We may suspend or terminate access to the app without prior notice if:
+      </p>
+
+      <ul>
+        <li>These Terms are violated</li>
+        <li>The service is abused or exploited</li>
+        <li>The app or service is discontinued</li>
+      </ul>
+
+      <h2>9. Disclaimer and Limitation of Liability</h2>
+
+      <p>
+        The app is provided on an "as is" and "as available" basis.
+      </p>
+
+      <p>
+        To the maximum extent permitted by law, Wizards Arena shall not be liable for:
+      </p>
+
+      <ul>
+        <li>Loss of data or progression</li>
+        <li>Service interruptions</li>
+        <li>Gameplay issues or balancing decisions</li>
+        <li>Loss of virtual items or rewards</li>
+        <li>Indirect or consequential damages arising from app usage</li>
+      </ul>
+
+      <h2>10. Changes to These Terms</h2>
+
+      <p>
+        We may update these Terms from time to time.
+        Continued use of the app after updates constitutes acceptance of the revised Terms.
+      </p>
+
+      <h2>11. Contact</h2>
+
+      <p>
+        For support or legal inquiries:
+      </p>
+
+      <p>
+        Email: <a href="mailto:turn.appsolution@gmail.com">turn.appsolution@gmail.com</a>
+      </p>
+    </div>
   </div>
 </body>
 </html>
